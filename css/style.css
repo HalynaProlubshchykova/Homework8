@@ -1,0 +1,112 @@
+/*General styles*/
+body {
+  background-color: #3b3f45;
+  margin: 0 auto;
+  width: 793px;
+  height: 507px;
+}
+* {
+  transition: all 0.1s ease-in;
+}
+
+/*Header*/
+.header {
+  background-color: #4a4f56;
+  color: #ff8984;
+  padding: 12px 0;
+}
+.header h1 {
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 4px;
+}
+.header p {
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+/*Form*/
+form {
+  padding-top: 20px;
+  padding-bottom: 45px;
+}
+.form-list {
+  margin-left: 91px;
+  margin-top: 60px;
+}
+.form-list-item {
+  list-style-type: none;
+  background-color: #88839e;
+  padding: 12px 12px 14px 47px;
+  border-top: 3px solid #88839e;
+  border-bottom: 3px solid #88839e;
+  box-sizing: border-box;
+  width: 534px;
+  height: 45px;
+}
+.form-list-item:nth-child(even) {
+  background-color: #7a7593;
+  border-top: #7a7593;
+  border-bottom: #7a7593;
+}
+.form-list-item:hover {
+  background: #625e77;
+  border-bottom: white 3px solid;
+  border-top: white 3px solid;
+}
+.form-list-item:active {
+  background-color: #ff8984;
+}
+label {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: white;
+}
+label > span {
+  font-size: 11px;
+  padding-top: 12px;
+  padding-bottom: 17px;
+}
+
+label > span::before {
+  content: " (";
+}
+
+label > span::after {
+  content: ")";
+}
+input:checked ~ label {
+  text-decoration: line-through;
+  color: #9b96ac;
+}
+input {
+  margin-right: 16px;
+  width: 16px;
+  height: 16px;
+}
+
+button {
+  width: 534px;
+  height: 45px;
+  margin-left: 129px;
+  margin-top: 50px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  color: #ff8984;
+  background: #4a4f56;
+}
+button:hover {
+  color: #d29a98;
+}
